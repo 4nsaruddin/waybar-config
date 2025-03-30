@@ -1,0 +1,33 @@
+#waybar {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+#clock,
+#memory,
+#cpu,
+#temperature,
+#network,
+#battery,
+#pulseaudio,
+#language,
+#window,
+#workspaces {
+  padding: 0 8px;
+}
+
+#custom-power {
+    padding: 0 10px;
+    color: #00BFFF;
+    font-size: 14px;
+}
+
+#custom-power:hover {
+    background-color: #313244;
+    color: #f9e2af;
+    border-radius: 5px;
+}
